@@ -15,7 +15,8 @@ dependencies = [
     "yfinance (>=0.2.61,<0.3.0)",
     "statsmodels (>=0.14.4,<0.15.0)"
 ]
-
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
